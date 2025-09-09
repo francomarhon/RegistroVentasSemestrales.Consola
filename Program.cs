@@ -9,7 +9,7 @@ namespace RegistroVentasSemestrales.Consola
             double totalArsSemestre = 0;
             int contadorVentasSemestre = 0;
 
-            for (int mes = 1; mes < 6; mes++)
+            for (int mes = 1; mes <= 6; mes++)
             {
                 int contadorVenta=0;
                 double totalArs=0;
